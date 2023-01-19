@@ -1,0 +1,133 @@
+:root {
+  --link-active: #2196f3;
+}
+:root {
+  --small-text: #757575;
+}
+:root {
+  --white-text: #ffffff;
+}
+:root {
+  --default-text: #212121;
+}
+:root {
+  --background-text-temp: #2f303a;
+}
+:root {
+  --background-button: #f5f4fa;
+}
+:root {
+  --footer-text: rgb(255, 255, 255, 0.3);
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--default-text);
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.17;
+}
+.blue {
+  color: var(--link-active);
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.link a {
+  text-decoration: none;
+  color: inherit;
+}
+.link a:hover {
+  color: var(--link-active);
+}
+.link a:focus {
+  color: var(--link-active);
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.small {
+  color: var(--small-text);
+}
+.active:hover {
+  color: var(--link-active);
+}
+.active:focus {
+  color: var(--link-active);
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--white-text);
+  background-color: var(--background-text-temp);
+  text-align: center;
+  line-height: 1.37;
+}
+.main-button {
+  font-weight: 700;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.9;
+  border: none;
+}
+.paragraph-title {
+  font-size: 14px;
+  line-height: 1.17;
+}
+.paragraph-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+}
+.name {
+  font-weight: 500;
+  line-height: 1.17;
+}
+.footer {
+  color: var(--white-text);
+}
+.footer-text {
+  line-height: 1.7;
+  font-size: 14px;
+}
+.background {
+  background-color: var(--background-text-temp);
+}
+.fade {
+  color: var(--footer-text);
+}
+.filters button {
+  background-color: var(--background-button);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.6;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  background-color: var(--link-active);
+  color: var(--white-text);
+}
+.picture h3 {
+  font-size: 18px;
+  line-height: 2;
+}
+.picture span {
+  line-height: 1.9;
+}
+button:focus {
+  background-color: var(--link-active);
+  color: var(--white-text);
+}
