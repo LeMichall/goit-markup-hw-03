@@ -131,3 +131,32 @@ button:focus {
   background-color: var(--link-active);
   color: var(--white-text);
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.header-border {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo-top {
+}
+.menu {
+  display: flex;
+  padding: 32px 371px 32px 93px;
+  margin: auto;
+}
+.menu > .item:not(:last-child) {
+  margin-right: 46px;
+}
+.navigation-top {
+  padding-right: 50px;
+}
