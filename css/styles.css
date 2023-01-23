@@ -19,6 +19,15 @@
 :root {
   --footer-text: rgb(255, 255, 255, 0.3);
 }
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--default-text);
@@ -148,6 +157,8 @@ button:focus {
   justify-content: space-around;
 }
 .logo-top {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .menu {
   display: flex;
@@ -158,5 +169,33 @@ button:focus {
   margin-right: 46px;
 }
 .navigation-top {
-  padding-right: 50px;
+  margin-right: 50px;
+}
+.main-header {
+  padding-bottom: 30px;
+  margin: 0 auto;
+  width: 696px;
+}
+.main-button {
+  padding: 10px 41px 10px 42px;
+  border-radius: 4px;
+  width: 200px;
+}
+.section-1 {
+  padding-bottom: 106px;
+  padding-top: 106px;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+.text-center {
+  text-align: center;
+}
+.footer-space {
+  padding-top: 60px;
+}
+.address-position {
+  margin-top: 20px;
+  padding-bottom: 60px;
 }
