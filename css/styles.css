@@ -136,6 +136,9 @@ h1 {
   font-family: inherit;
   line-height: 1.6;
   border: none;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 button:hover {
   cursor: pointer;
@@ -202,6 +205,9 @@ button:focus {
   padding-bottom: 106px;
   padding-top: 106px;
 }
+.section-about > .item:not(:last-child) {
+  margin-right: 30px;
+}
 .flexbox {
   display: flex;
   justify-content: space-evenly;
@@ -219,11 +225,11 @@ button:focus {
 .background-darker {
   background-color: #f5f4fa;
 }
-.flexbox > .item:not(:last-child) {
-  margin-right: 30px;
-}
 .image-margin {
   margin: 0;
+}
+.section-team > .item:not(:last-child) {
+  margin-right: 30px;
 }
 .section-team > .item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -241,4 +247,33 @@ button:focus {
 }
 .footer-text > .item:not(:last-child) {
   margin-bottom: 9px;
+}
+.filters {
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 0;
+}
+.filters > .item:not(:last-child) {
+  margin-right: 8px;
+}
+.picture {
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.figure-table > h3 {
+  padding: 20px 24px 4px 24px;
+}
+.figure-table > .small {
+  display: block;
+  padding: 0 24px 20px 24px;
+}
+
+.figure-table {
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+  border-right: 1px solid rgba(238, 238, 238, 1);
+  border-left: 1px solid rgba(238, 238, 238, 1);
+}
+.no-gap {
+  display: block;
 }
