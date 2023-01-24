@@ -25,7 +25,16 @@ p {
 ul {
   margin: 0;
 }
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
 h3 {
+  margin: 0;
+}
+h4 {
   margin: 0;
 }
 body {
@@ -90,6 +99,8 @@ h1 {
 .paragraph-title {
   font-size: 14px;
   line-height: 1.17;
+  margin-bottom: 10px;
+  width: 270px;
 }
 .paragraph-text {
   font-size: 14px;
@@ -98,6 +109,7 @@ h1 {
 .section-title {
   font-size: 36px;
   line-height: 1.17;
+  margin-bottom: 50px;
 }
 .name {
   font-weight: 500;
@@ -109,6 +121,7 @@ h1 {
 .footer-text {
   line-height: 1.7;
   font-size: 14px;
+  padding: 0;
 }
 .background {
   background-color: var(--background-text-temp);
@@ -159,11 +172,15 @@ button:focus {
 .logo-top {
   padding-top: 24px;
   padding-bottom: 25px;
+  width: 145px;
 }
 .menu {
   display: flex;
   padding: 32px 371px 32px 93px;
   margin: auto;
+}
+.menu > .item {
+  width: 53px;
 }
 .menu > .item:not(:last-child) {
   margin-right: 46px;
@@ -198,4 +215,30 @@ button:focus {
 .address-position {
   margin-top: 20px;
   padding-bottom: 60px;
+}
+.background-darker {
+  background-color: #f5f4fa;
+}
+.flexbox > .item:not(:last-child) {
+  margin-right: 30px;
+}
+.image-margin {
+  margin: 0;
+}
+.section-team > .item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+}
+.figcaption > .name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.figcaption > .small {
+  display: block;
+  padding-bottom: 30px;
+}
+.footer-text > .item:not(:last-child) {
+  margin-bottom: 9px;
 }
