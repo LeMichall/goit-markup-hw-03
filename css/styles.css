@@ -24,6 +24,8 @@ p {
 }
 ul {
   margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 h1 {
   margin: 0;
@@ -40,6 +42,7 @@ h4 {
 body {
   font-family: "Roboto", sans-serif;
   color: var(--default-text);
+  width: 1600px;
 }
 .logo {
   font-family: "Raleway";
